@@ -151,7 +151,7 @@ table {
 .top p{
     color: rgb(239, 238, 238);
 }
-@media screen and (max-width: 748px){
+@media  (max-width: 748px){
     .header{
         background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home_sm.svg);
         background-repeat: no-repeat;
@@ -160,11 +160,11 @@ table {
         margin: 0px 20px 0px 20px;
         height: 80vh;
         z-index:-1;
-        max-width: 374px;
+        max-width: 784px;
     }
     .title{
         flex-direction: column;
-        max-width: 374px;
+        max-width: 784px;
     }
     .lover{
         max-width: 100%;
@@ -472,7 +472,7 @@ table {
 }
 @media(max-width: 784px){
     .place{
-        max-width: 374px;
+        max-width: 784px;
         display: flex;
         margin-top: 60px;
     }
