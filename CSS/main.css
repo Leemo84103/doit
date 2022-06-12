@@ -151,7 +151,56 @@ table {
 .top p{
     color: rgb(239, 238, 238);
 }
-
+@media(max-width: 748px){
+    .header{
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home_sm.svg);
+        background-repeat: no-repeat;
+        background-position:  bottom;
+        background-size: contain;
+        margin: 0px 20px 0px 20px;
+        height: 80vh;
+        z-index:-1;
+        max-width: 374px;
+    }
+    .title{
+        flex-direction: column;
+        max-width: 374px;
+    }
+    .lover{
+        max-width: 100%;
+        margin-right: 0%;
+    }   
+    .lover h5{
+        font-size: 16px;
+        margin-top: 32px;
+    }
+    .lover h4{
+        font-size: 16px;
+        margin-bottom: 32px;
+    }
+    .lover h1{
+        font-size: 32px;
+    }
+    .logoicon{
+        max-width: 130.84px;
+    }
+    .logopay a{
+        max-width: 128px;
+        font-size: 16px;
+    }
+    .background{
+        width: 80%;
+        margin-bottom: 98.5px;}
+    
+    .background img{
+        margin-bottom: 100px;
+    }
+    .logo{
+        border-bottom: 2px solid #FFD153;
+        height: 72px;
+        margin: 0;
+    }
+}
 @media(max-width: 374px){
     .header{
         background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home_sm.svg);
