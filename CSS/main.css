@@ -151,7 +151,7 @@ table {
 .top p{
     color: rgb(239, 238, 238);
 }
-@media(max-width: 748px){
+@media screen and (max-width: 748px){
     .header{
         background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home_sm.svg);
         background-repeat: no-repeat;
@@ -626,7 +626,7 @@ table {
 }
 @media(max-width: 784px){
     .feedback_item li{
-        width: 50%;
+        width: 100%;
         padding: 0px 32px;
         position: relative;
         margin-top: 104px;
